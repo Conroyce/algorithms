@@ -1,0 +1,10 @@
+O(1) find x in 1 attempt
+
+O(log n) find x from list by splitting list in halves recursively
+
+O(n) find x by iterating through each item in list
+
+O(n log n) find x by iterating through each item in list, then iterate again by splitting list in halves recursively
+
+O(n^2) find x by iterating through list twice
+
