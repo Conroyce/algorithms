@@ -27,3 +27,9 @@ function cycle(dir, arr, cur) {
     }
   }
 }
+
+cycle(-2, [1,2,3], 3) // returns 1
+cycle(-1, [1,2,3], 1) // returns 3
+cycle(2, [1,2,3], 1) // returns 3
+cycle(1, [1,2,3], 3) // returns 1
+cycle(1, [1,2,3], 0) // returns null
