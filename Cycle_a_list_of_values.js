@@ -6,8 +6,8 @@
 
 function cycle(dir, arr, cur) {
   var leftOver;
-  var check = arr.filter(function(n) { return n == cur });
-  if (check.length === 0) return null;
+  var check = arr.indexOf(cur);
+  if (check === -1) return null;
   
   for (var i = 0; i < arr.length; i++) {
     if (arr[i] === cur) {
